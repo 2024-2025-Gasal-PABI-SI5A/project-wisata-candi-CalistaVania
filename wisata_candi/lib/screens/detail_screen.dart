@@ -131,8 +131,21 @@ class DetailScreen extends StatelessWidget{
                 ),
               const SizedBox(
                 height: 16,
-              )
+              ),
               // Info Bawah
+              const Text(
+                'Deskripsi',
+                style: TextStyle(
+                  fontSize: 16,
+                  fontWeight: FontWeight.bold
+                ),
+              ),
+              const SizedBox(
+                height: 16,
+              ),
+              Text(
+                candi.description,
+              ),
             ],
             )
             )
